@@ -217,15 +217,16 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const PROTOCOLS = [
-  {id:'pray',   emoji:'🕌',name:'Pray (Namoz)',     target:'2:10'},
-  {id:'zikr',   emoji:'📿',name:"Zikr / Istig'for", target:'0:20'},
-  {id:'quron',  emoji:'📖',name:"Qur'on o'qish",    target:'0:20'},
-  {id:'ielts',  emoji:'🎓',name:'IELTS',             target:'6:00'},
-  {id:'reading',emoji:'📚',name:'Reading Book',      target:'3:00'},
-  {id:'online', emoji:'💻',name:'Online Teaching',   target:'2:00'},
-  {id:'sport',  emoji:'🏋️',name:'Sport / Gym',      target:'1:00'},
-  {id:'writing',emoji:'✍️', name:'Writing Notes',    target:'0:35'},
-  {id:'affirm', emoji:'💬', name:'Affirmations',      target:'0:10'},
+  {id:'pray',    emoji:'🕌', name:'Pray (Namoz)',      target:'2:10'},
+  {id:'zikr',    emoji:'📿', name:"Zikr / Istig'for",  target:'0:20'},
+  {id:'quron',   emoji:'📖', name:"Qur'on o'qish",     target:'0:20'},
+  {id:'ielts',   emoji:'🎓', name:'IELTS',              target:'4:00'},
+  {id:'reading', emoji:'📚', name:'Reading Book',       target:'1:00'},
+  {id:'online',  emoji:'💻', name:'Online Teaching',    target:'1:00'},
+  {id:'texnikum',emoji:'🏫', name:'Texnikumda dars',    target:'4:00'},
+  {id:'sport',   emoji:'🏋️', name:'Sport / Gym',       target:'1:30'},
+  {id:'writing', emoji:'✍️', name:'Writing Notes',      target:'0:20'},
+  {id:'affirm',  emoji:'💬', name:'Affirmations',       target:'0:10'},
 ];
 const MOODS=['😫','😕','😐','😊','🤩'];
 const SLEEP_OPTS=['9+','8','7','6','5','4','3-'];
